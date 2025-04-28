@@ -1,0 +1,26 @@
+True_Label,Predicted_Label,Confidence
+No DR,Proliferative DR,1.0
+No DR,Proliferative DR,1.0
+Proliferative DR,Proliferative DR,1.0
+Severe DR,Proliferative DR,1.0
+Moderate DR,Proliferative DR,1.0
+Severe DR,Proliferative DR,1.0
+Moderate DR,Proliferative DR,1.0
+Proliferative DR,Proliferative DR,1.0
+No DR,Proliferative DR,1.0
+Severe DR,Proliferative DR,1.0
+Mild DR,Proliferative DR,1.0
+Severe DR,Proliferative DR,1.0
+Mild DR,Proliferative DR,1.0
+Mild DR,Proliferative DR,1.0
+Moderate DR,Proliferative DR,1.0
+Moderate DR,Proliferative DR,1.0
+Proliferative DR,Proliferative DR,1.0
+Proliferative DR,Proliferative DR,1.0
+No DR,Proliferative DR,1.0
+Moderate DR,Proliferative DR,1.0
+Severe DR,Proliferative DR,1.0
+No DR,Proliferative DR,1.0
+Mild DR,Proliferative DR,1.0
+Proliferative DR,Proliferative DR,1.0
+Mild DR,Proliferative DR,1.0
