@@ -5,3 +5,5 @@ backend/wandb/*
 frontend/node_modules/*
 frontend/package-lock.json
 frontend/package.json
+backend/checkpoints/*
+.venv/*
