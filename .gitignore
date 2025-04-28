@@ -7,3 +7,9 @@ frontend/package-lock.json
 frontend/package.json
 backend/checkpoints/*
 .venv/*
+
+# Ignore large files and directories
+.venv/lib/python3.9/site-packages/torch/lib/libtorch_cpu.dylib
+backend/checkpoints/best_model.pth
+.venv/lib/python3.9/site-packages/torch/lib/
+backend/checkpoints/
