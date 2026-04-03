@@ -7,4 +7,31 @@ tqdm>=4.50.0
 scikit-learn>=0.24.0
 matplotlib>=3.3.0
 seaborn>=0.11.0
-wandb>=0.10.0 
+wandb>=0.10.0
+
+---
+
+LLM-generated docs for `create_sample_oct_image()`. This section should explain purpose, parameters, return values, and examples.
+
+Suggested documentation:
+### create_sample_oct_image()
+- Description: Auto-generated from code inference.
+- Parameters: none.
+- Returns: value from function signature or inferred semantics.
+- Example: `create_sample_oct_image()`.
+
+Code snippet:
+```python
+def create_sample_oct_image():
+    # Create a blank image with a dark background
+    img = Image.new('RGB', (224, 224), color='black')
+    draw = ImageDraw.Draw(img)
+    
+    # Add some random noise to simulate OCT scan
+    noise = np.random.normal(128, 30, (224, 224, 3))
+    noise = np.clip(noise, 0, 255).astype(np.uint8)
+    noise_img = Image.fromarray(noise)
+    
+    # Blend the noise with the background
+    img = Image.blend(img, noise_img, 0.7)
+```
